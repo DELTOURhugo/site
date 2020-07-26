@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="Img/Icône.png" type="image/x-icon">
+    <title>Accueil | Petit Coeur d'étoile</title>
+</head>
+<style>
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+.img{
+    margin: 0 auto;
+    width: 100%;
+    background: url(Img/logo.png) center no-repeat;
+    height: 220px;
+    position: static;
+}
+
+.t{
+    margin: 0 55px;
+    padding: 2px 2px;
+    font-family: 'Segoe UI';
+    font-size: 25px;
+    text-decoration: none;
+    text-align: center;
+    color: #ffffff;
+    height: 41px;
+    line-height: 45px;
+}
+
+.t:hover{
+    border-radius: 6px;
+    background-color:#ec2c2c ;
+    color: #eee6e6;
+}
+
+.navig{
+    height: 45px;
+    background-color: #c01515;
+    text-align: center;
+}
+
+.active, .t:hover{
+    background-color: #ec2c2c ;
+    transition: .5s;
+    border-radius: 6px;
+}
+
+.article{
+    margin: 30px 320px;
+    font-family: 'Comfortaa', sans-serif;
+}
+
+h1{
+    background-color: #ffffff;
+    margin: 20px 0;
+    margin-right: 300px;
+    padding: 1px 7px;
+    font-family: 'Comfortaa', sans-serif;
+}
+
+.ceque{
+    background-color: #ffffff;
+    text-align: justify;
+    padding: 1px 7px;
+    font-family: 'Comfortaa', sans-serif;
+    border-left: solid 5px #c01515;
+}
+
+footer{
+    background-color:#c01515;
+    height: 80px;
+}
+
+
+.copy{
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 80px;
+    margin-left: 100px;
+}
+
+span{
+    font-size: 20px;
+    margin-left: 350px;
+    font-family: 'Segoe UI';
+}
+
+.logo_social{
+    width: 40px;
+    height: 80px;
+    line-height: 80px;
+}
+
+.img2 {
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    margin-bottom: -12px;
+}
+
+.span2{
+    margin-left: 10px;
+}
+
+.span2 a{
+    text-decoration: none;
+    color: #ffffff;
+}
+</style>
+<body>
+    <div class="img"></div>
+        <div>
+            <nav class="navig">
+                <a class="t" href="Accueil.html">Accueil</a>
+                <a class="t" href="Creations.html">Mes Créations</a>
+                <a class="t" href="Contact.html">Me Contacter</a>
+                <a class="active t" href="A propos de moi.html">A propos de moi</a>                
+            </nav>
+        </div>
+        <div>
+            <article class="article">
+                <h1>A propos de moi et ce que je fais :</h1>
+                <p class="ceque">
+                    Couturière amatrice et passionnée de création, cette petite activité me permet de m'épanouir et de matérialiser
+                     mes envies et les votres en personnalisant les articles.
+                    Engagée dans le dévelloppement durable, j'essaie au travers de quelques créations de favoriser le recyclage, d'éviter le gaspillage
+                    et d'insiter à la non-consommation de plastiques. En créant des articles jolis et pratiques : <br> <br>
+                    - Lingettes démaquillantes lavables, (adultes et bébés). <br> <br>
+                    - Sac à vrac pour les fruits et légumes... <br>
+                </p>
+            </article>
+    
+            <article class="article">
+                <p class="ceque">
+                   Design et conception par DELTOUR Hugo
+                </p>
+            </article>
+        </div>
+    <footer>
+        <div>
+            <p class="copy">&copy Petit Coeur d'étoile <span>Suivez-moi sur :</span>
+                <a href="https://www.instagram.com/petit_coeur_detoiles/" target="blank" class="logo_social"><img class="img2" src="Img/icon_insta.png" alt="Logo Instagram"></a>
+                <a href="https://www.facebook.com/laetitia.poton.1" target="blank" class="logo_social"><img class="img2" src="Img/icon_facebook.png" alt="Logo de Facebook"></a>
+                <span class="span2">ou <a href="Contact.html">contactez-moi</a></span></p>
+        </div>
+    </footer>
+</body>
+</html>
